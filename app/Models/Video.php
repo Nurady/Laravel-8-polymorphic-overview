@@ -10,6 +10,7 @@ class Video extends Model
     use HasFactory;
 
     protected $guard=[];
+    protected $fillable=['title', 'path'];
     
     public function comment()
     {

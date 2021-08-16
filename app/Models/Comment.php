@@ -9,10 +9,20 @@ class Comment extends Model
 {
     use HasFactory;
 
-    protected $guard=[];
+    protected $fillable=['content'];
     
     public function commentable()
     {
         return $this->morphTo();
+    }
+
+    public function video()
+    {
+        return $this->belongsTo(Video::class);
+    }
+
+    public function post()
+    {
+        return $this->belongsTo(Post::class);
     }
 }

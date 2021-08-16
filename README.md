@@ -15,4 +15,6 @@
 13. Tabel Tags
 14. Tabel Taggables
 15. Inverse relationship
+16. insert/update/delete one to many
+17. insert/update/delete many to many
 

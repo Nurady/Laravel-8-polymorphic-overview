@@ -1,5 +1,5 @@
 @foreach ($videos as $video)
     <p>
-        {{ $video->name }}
+        {{ $video->content }}
     </p>
 @endforeach
